@@ -1,6 +1,9 @@
+Föoldal: 
+![fooldal](https://github.com/user-attachments/assets/3c8e952f-bc0d-40b2-9b6e-0afdb8e81c9f)
 
+Termékek oldal:
 
-![screen](https://github.com/user-attachments/assets/3fcca6dc-1c57-439f-be0e-2207a1e3d7de)
+![termekekOldal](https://github.com/user-attachments/assets/d7e74eea-7e8f-40c9-b1df-17645297f4c0)
 
 
 
