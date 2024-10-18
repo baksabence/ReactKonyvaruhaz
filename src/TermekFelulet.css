@@ -1,0 +1,114 @@
+
+.TermekFelulet {
+    padding: 20px;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.kosar {
+    border: 2px solid #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.kosar h2 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.kosartabla {
+    width: 100%;
+    table-layout: auto;
+}
+
+.kosartabla th, .kosartabla td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+}
+
+.kosartabla th {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title, .card-text{
+    font-size: 12px;
+}
+
+.termekek{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    text-align: center ;
+    letter-spacing: 1px ;
+    text-transform: uppercase ;
+
+}
+  
+.termekek img{
+    width: 100%;
+    transition: transform 0.3s ease;
+    height: 300px;
+
+}
+  
+.termekek img:hover{
+    transform: scale(1.03);
+}
+
+
+.card .btn {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px;
+    margin: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+  }
+  
+  .card .btn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+ 

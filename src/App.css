@@ -1,15 +1,13 @@
 body {
-  font-family: 'Arial', sans-serif;
-
+  font-family: 'Arial', sans-serif !important;
+  font-style: italic;
   color: #333;
   line-height: 1.6;
   overflow-x: hidden;
+
 }
 
-.App{
-  width: 100%;
-  margin: auto;
-}
+
 
 .App-main img {
  /* transition: transform 0.3s ease; */
@@ -17,13 +15,10 @@ body {
 }
 
 
-/*.App-main img:hover{
-  transform: scale(1.03); 
-}*/
-
 .App-header {
   width: 100%;
   background-color: #000;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,77 +40,46 @@ body {
 }
 
 .fokep img{
-  width: 100%; 
-  max-width: none; 
-  max-height: 60vh; 
-  object-fit: cover;
+  width: 100% ; 
+  max-width: none ; 
+  max-height: 60vh ; 
+  object-fit: cover ;
 }
 
 .fokep h2{
   text-align: center;
   margin: 20px;
-  font-weight: 600;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+
+.navigacio .btn {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 25px;
+  margin: 25px;
+  font-size: 1rem;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-style: italic;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
 }
 
-.kiemelt{
-  width: 80%;
-  max-width: 800px;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-style: italic;
+.navigacio .btn:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
-.kimltballada{
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.termek img{
-  transition: transform 0.3s ease;
-}
-
-.termek img:hover{
-  transform: scale(1.03);
-}
-
-
-.termekek{
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.termekek img{
-  width: 70%;
-  height: 70%;
-  transition: transform 0.3s ease;
-}
-
-.termekek img:hover{
-  transform: scale(1.03);
-}
-
 
 footer {
-  width: 100%;
   background-color: #000;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
-  position: relative;
-  left: 0;
-  right: 0;
-  margin: 0;
+  padding: 24px;
 }
-
-
-
